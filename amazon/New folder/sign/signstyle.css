@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    height: 100%;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.sign-container{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(227, 237, 237);
+    margin-top: 40px;
+}
+
+.logo{
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+.logo img{
+    color: black;
+    height: auto;
+    width: 100px
+}
+
+.detial{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+#label{
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+#Email{
+    height: 40px;
+    border-radius: 5px;
+    border: 3px  solid rgb(21, 191, 248);
+}
+
+#Email:hover{
+    box-shadow: 0.5px 0.5px 5px rgb(21, 191, 248);
+    border: 1px  solid rgb(21, 191, 248);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: auto;
+    border: 0.5px solid orange;
+    background-color: orange;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.button:hover{
+    box-shadow: 0.5px 0.5px 5px yellow;
+}
+
